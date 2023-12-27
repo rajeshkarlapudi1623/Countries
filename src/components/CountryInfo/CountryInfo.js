@@ -10,8 +10,6 @@ const CountryInfo = () => {
 
   const { countryName } = useParams();
 
-  // const borders = country.map((country) => country.borders);
-
   useEffect(() => {
     const getCountryByName = async () => {
       try {
